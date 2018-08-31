@@ -1,0 +1,27 @@
+{
+  "name": "arrow",
+  "version": "1.0.0",
+  "description": "If you want to learn more about Arrow functions, please see [Arrow functions] in ES2015. This article shows examples using ES2015 and JSX to contrast the various ways to return values when using Arrow functions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taboca/doc-js-arrow-functions-single-expression-return-values.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taboca/doc-js-arrow-functions-single-expression-return-values/issues"
+  },
+  "homepage": "https://github.com/taboca/doc-js-arrow-functions-single-expression-return-values#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "dependencies": {
+    "tape": "^4.9.1"
+  }
+}
