@@ -23,19 +23,21 @@ const test = () => (<span><p>Hello world</p></span>);
 On the other hand, if curly braces are used, JavaScript will understand that as a statement:
 
 ```
-const foo = (params) => {} // this is not an object being returned, it's just an empty statement 
+const test = () => {} // this is not an object being returned, it's just an empty statement 
 ```
 
 Therefore, using statement is a good start to have code in it, multiple lines, and it will require the use of "return" if the function is intended to return value:
 
-const foo = (params) => {
+```
+const test = () => {
     let value = 1; 
     return value;
 }
+```
 
 In case you want to return an empty object, the grouping operator can be used to enclose the curly braces: 
 
 ```
-const foo = (params) => ({}) 
+const test = () => ({}) 
 ```
 
